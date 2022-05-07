@@ -21,7 +21,13 @@
     color: red;
     background-color: gold;
 }
-# unikalni {
+#unique {
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    border: 10px dotted purple;
+    margin: 50px;
+
     background-color: blue;
     color: white;
 }
