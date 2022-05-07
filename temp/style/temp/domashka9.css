@@ -1,0 +1,27 @@
+.banner {
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    border: 10px;
+    margin: 10px;
+}
+.banner__span {
+    color: red;
+    background-color: gold;
+}
+.banner__img{ 
+    color: red;
+    background-color: gold;
+}
+.banner__input {
+    color: red;
+    background-color:gold;
+}
+.banner__btn-disabled {
+    color: red;
+    background-color: gold;
+}
+# unikalni {
+    background-color: blue;
+    color: white;
+}

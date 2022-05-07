@@ -6,7 +6,16 @@
 }
 .text {
     color: aqua;
+}
 #unicalni {
-    position: absolute;
-    color::after
+ color:red
+}
+.list {
+    width: 450px;
+    margin: 30px auto;
+}
+.list__item {
+width: 100px;
+float: left;
+margin-left: 50pxs;
 }
