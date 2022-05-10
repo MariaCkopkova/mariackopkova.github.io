@@ -13,7 +13,7 @@
     .list {
      display: flex;
      list-style-type: none;
-     justify-content: center;
+     justify-content: space-between;
      overflow: visible;
      width: 500px;
     }
