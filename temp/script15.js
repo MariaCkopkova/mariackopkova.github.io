@@ -10,7 +10,8 @@ console.log(b);
 /*переменная типа string */
 let s = 'здесь будет строка';
 console.log(s);
-/*переменная типа boolean/
+/*переменная типа boolean*/
+
 
 /*переменная типа undefinded */
 let c = [
