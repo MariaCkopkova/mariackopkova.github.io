@@ -90,7 +90,7 @@ p {
         color: aqua;
      }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     p {
         font-size: 3em;
         color: blueviolet;

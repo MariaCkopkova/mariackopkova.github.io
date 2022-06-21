@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>переменные и формы</title>
+    <link rel="stylesheet" href="style/domashka14.css">
+</head>
+<body> 
+    <div class="container">
+     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, obcaecati mollitia possimus doloremque 
+        officiis nihil quisquam? Nostrum aliquid error totam dolorem nemo nesciunt ad assumenda eligendi quam, quod hic quasi!</p>
+    </div> 
+    <!--
+        Добавить на страницу форму содержащую элементы:
+    - input text
+    - textarea
+    - radiobutton
+    - select
+    - checkbox
+    - button
+    -->
+    <div class="content">
+        <form class="contact-form">
+            <h1 class="contact-form__title">Напишите нам</h1>
+            <label class="contact-form__lebel">
+                <input type="text" class="contact-form__input"placeholder="Логин" required minlength="3">
+            </label>
+            <label class="contact-form__lebel">
+                <input type="email" class="contact-form__input"placeholder="Email" required>
+            </label>
+            <label class="contact-form__lebel">
+                <textarea class="contact-form__textarea" placeholder="Введите сообщение"></textarea>
+            </label>
+            <fieldset>
+                <label for="man">
+                  муж.
+                  <input type="radio" id="man" name="gender" value="" />
+                </label>
+                <label for="woman">
+                  жен.
+                  <input type="radio" id="woman" name="gender" value="" />
+                </label>
+                <label for="no-gender">
+                  no gender
+                  <input type="radio" id="no-gender" name="gender" value="" />
+                </label>
+          </fieldset>
+            <label class="contact-form__lebel" for="country">
+             <h4 class="contact-form__title"> Ваша страна:</h4>
+                  </label>
+            <select name="country" id="country">
+              <option value="russia">Россия</option>
+              <option value="Ukraina">Украина</option>
+             </select>
+          </fieldset>
+            <fieldset>
+                    <h4 class="contact-form__title">Выберите удобный способ связи с Вами:</h4>
+                 <label for="scales1">
+                  E-mail
+                  <input type="checkbox" id="scales1" name="check-mail" />
+                 </label>
+                 <label for="scales2">
+                  Tелефон
+                  <input type="checkbox" id="scales2" name="check-phone" />
+                 </label>
+                 <label for="scales2">
+                  SMS
+                  <input type="checkbox" id="scales2" name="check-phone" />
+                 </label>
+            </fieldset>
+                <button class="content-form__btn">Отправить</button>
+          
+        </form>
+        
+    </div>
+</body>
+</html>
